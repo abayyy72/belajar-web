@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main-header{
+    background-color: #018f26;
+}
+
+.header-logo img{
+    width: 60px;
+    margin: 10px 0;
+}
+
+
+.header-content{
+    display: flex ;
+    align-items: center;
+}
+
+.header-sosmed{
+    margin-left: auto;
+}
+
+.header-sosmed img{
+    width: 60px;
+    margin: 15px 0;
+}
+
+.header-content h1{
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 27px;
+}
+
+.header-sub{
+    background-color: #00631a;
+}
+
+.header-nav{
+    margin: 0 -20px;
+}
+
+.header-nav a{
+    padding: 15px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.banner img{
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.tagline{
+    text-align: center;
+    background-color: #018f26;
+    padding: 40px 20px;
+    margin-top: -5px;
+    color: #ffffff;
+}
+
+.tagline h3{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    letter-spacing: 10px;
+}
+
+#berita {
+    padding: 40px 0px;
+}
+
+.berita-data {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.berita-gambar img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.berita-deskripsi h4 {
+    margin-top: -45px;
+}
+
+.berita-tombol {
+    text-decoration: none;
+    background-color: #00631a;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 14px;
+    display: inline;
+    border-radius: 15px;
+}
+
+#footer {
+    padding: 40px 10px;
+    background-color: black;
+    color: #ffffff;
+    margin-top: 0;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.footer-gambar img {
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.footer-desk {
+    text-align: center;
+    background-color: gray;
+    padding: 10px 0px;
+    margin-top: 0;
+    color: white;
+}
+
+.footer-deskripsi .footer-nama-sekolah {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.footer-deskripsi .footer-slogan {
+    font-size: 13px;
+    color: white;
+}
+
+.footer-deskripsi .footer-alamat {
+    font-size: 13px;
+    color: white;
+    margin-top: 10px;
+}
